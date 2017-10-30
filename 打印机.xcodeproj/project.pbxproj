@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D50E9611F25F29200F51364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50E9601F25F29200F51364 /* main.m */; };
+		0D50E9641F25F29200F51364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50E9631F25F29200F51364 /* AppDelegate.m */; };
+		0D50E9671F25F29200F51364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50E9661F25F29200F51364 /* ViewController.m */; };
+		0D50E96A1F25F29200F51364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D50E9681F25F29200F51364 /* Main.storyboard */; };
+		0D50E96C1F25F29200F51364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D50E96B1F25F29200F51364 /* Assets.xcassets */; };
+		0D50E96F1F25F29200F51364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D50E96D1F25F29200F51364 /* LaunchScreen.storyboard */; };
+		0D50E97A1F25F29200F51364 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50E9791F25F29200F51364 /* ___Tests.m */; };
+		0D50E9851F25F29200F51364 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50E9841F25F29200F51364 /* ___UITests.m */; };
+		0D50E9931F25F37900F51364 /* iOS开发- 启动动画(动态欢迎界面,非静态Default) - 简书.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0D50E9921F25F37900F51364 /* iOS开发- 启动动画(动态欢迎界面,非静态Default) - 简书.pdf */; };
+		0D50E9951F25F50600F51364 /* 4.行驶中_0_spec.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D50E9941F25F50600F51364 /* 4.行驶中_0_spec.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D50E9761F25F29200F51364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D50E9541F25F29200F51364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D50E95B1F25F29200F51364;
+			remoteInfo = "打印机";
+		};
+		0D50E9811F25F29200F51364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D50E9541F25F29200F51364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D50E95B1F25F29200F51364;
+			remoteInfo = "打印机";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D50E95C1F25F29200F51364 /* 打印机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "打印机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D50E9601F25F29200F51364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D50E9621F25F29200F51364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D50E9631F25F29200F51364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D50E9651F25F29200F51364 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D50E9661F25F29200F51364 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D50E9691F25F29200F51364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D50E96B1F25F29200F51364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D50E96E1F25F29200F51364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D50E9701F25F29200F51364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D50E9751F25F29200F51364 /* 打印机Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "打印机Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D50E9791F25F29200F51364 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		0D50E97B1F25F29200F51364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D50E9801F25F29200F51364 /* 打印机UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "打印机UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D50E9841F25F29200F51364 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		0D50E9861F25F29200F51364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D50E9921F25F37900F51364 /* iOS开发- 启动动画(动态欢迎界面,非静态Default) - 简书.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iOS开发- 启动动画(动态欢迎界面,非静态Default) - 简书.pdf"; sourceTree = "<group>"; };
+		0D50E9941F25F50600F51364 /* 4.行驶中_0_spec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.行驶中_0_spec.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D50E9591F25F29200F51364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D50E9721F25F29200F51364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D50E97D1F25F29200F51364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D50E9531F25F29200F51364 = {
+			isa = PBXGroup;
+			children = (
+				0D50E95E1F25F29200F51364 /* 打印机 */,
+				0D50E9781F25F29200F51364 /* 打印机Tests */,
+				0D50E9831F25F29200F51364 /* 打印机UITests */,
+				0D50E95D1F25F29200F51364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D50E95D1F25F29200F51364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D50E95C1F25F29200F51364 /* 打印机.app */,
+				0D50E9751F25F29200F51364 /* 打印机Tests.xctest */,
+				0D50E9801F25F29200F51364 /* 打印机UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D50E95E1F25F29200F51364 /* 打印机 */ = {
+			isa = PBXGroup;
+			children = (
+				0D50E9621F25F29200F51364 /* AppDelegate.h */,
+				0D50E9631F25F29200F51364 /* AppDelegate.m */,
+				0D50E9651F25F29200F51364 /* ViewController.h */,
+				0D50E9661F25F29200F51364 /* ViewController.m */,
+				0D50E9941F25F50600F51364 /* 4.行驶中_0_spec.png */,
+				0D50E9921F25F37900F51364 /* iOS开发- 启动动画(动态欢迎界面,非静态Default) - 简书.pdf */,
+				0D50E9681F25F29200F51364 /* Main.storyboard */,
+				0D50E96B1F25F29200F51364 /* Assets.xcassets */,
+				0D50E96D1F25F29200F51364 /* LaunchScreen.storyboard */,
+				0D50E9701F25F29200F51364 /* Info.plist */,
+				0D50E95F1F25F29200F51364 /* Supporting Files */,
+			);
+			path = "打印机";
+			sourceTree = "<group>";
+		};
+		0D50E95F1F25F29200F51364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D50E9601F25F29200F51364 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D50E9781F25F29200F51364 /* 打印机Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D50E9791F25F29200F51364 /* ___Tests.m */,
+				0D50E97B1F25F29200F51364 /* Info.plist */,
+			);
+			path = "打印机Tests";
+			sourceTree = "<group>";
+		};
+		0D50E9831F25F29200F51364 /* 打印机UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D50E9841F25F29200F51364 /* ___UITests.m */,
+				0D50E9861F25F29200F51364 /* Info.plist */,
+			);
+			path = "打印机UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D50E95B1F25F29200F51364 /* 打印机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D50E9891F25F29200F51364 /* Build configuration list for PBXNativeTarget "打印机" */;
+			buildPhases = (
+				0D50E9581F25F29200F51364 /* Sources */,
+				0D50E9591F25F29200F51364 /* Frameworks */,
+				0D50E95A1F25F29200F51364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "打印机";
+			productName = "打印机";
+			productReference = 0D50E95C1F25F29200F51364 /* 打印机.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D50E9741F25F29200F51364 /* 打印机Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D50E98C1F25F29200F51364 /* Build configuration list for PBXNativeTarget "打印机Tests" */;
+			buildPhases = (
+				0D50E9711F25F29200F51364 /* Sources */,
+				0D50E9721F25F29200F51364 /* Frameworks */,
+				0D50E9731F25F29200F51364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D50E9771F25F29200F51364 /* PBXTargetDependency */,
+			);
+			name = "打印机Tests";
+			productName = "打印机Tests";
+			productReference = 0D50E9751F25F29200F51364 /* 打印机Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D50E97F1F25F29200F51364 /* 打印机UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D50E98F1F25F29200F51364 /* Build configuration list for PBXNativeTarget "打印机UITests" */;
+			buildPhases = (
+				0D50E97C1F25F29200F51364 /* Sources */,
+				0D50E97D1F25F29200F51364 /* Frameworks */,
+				0D50E97E1F25F29200F51364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D50E9821F25F29200F51364 /* PBXTargetDependency */,
+			);
+			name = "打印机UITests";
+			productName = "打印机UITests";
+			productReference = 0D50E9801F25F29200F51364 /* 打印机UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D50E9541F25F29200F51364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "zkml－wxj";
+				TargetAttributes = {
+					0D50E95B1F25F29200F51364 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					0D50E9741F25F29200F51364 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D50E95B1F25F29200F51364;
+					};
+					0D50E97F1F25F29200F51364 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D50E95B1F25F29200F51364;
+					};
+				};
+			};
+			buildConfigurationList = 0D50E9571F25F29200F51364 /* Build configuration list for PBXProject "打印机" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D50E9531F25F29200F51364;
+			productRefGroup = 0D50E95D1F25F29200F51364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D50E95B1F25F29200F51364 /* 打印机 */,
+				0D50E9741F25F29200F51364 /* 打印机Tests */,
+				0D50E97F1F25F29200F51364 /* 打印机UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D50E95A1F25F29200F51364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D50E96F1F25F29200F51364 /* LaunchScreen.storyboard in Resources */,
+				0D50E9951F25F50600F51364 /* 4.行驶中_0_spec.png in Resources */,
+				0D50E96C1F25F29200F51364 /* Assets.xcassets in Resources */,
+				0D50E9931F25F37900F51364 /* iOS开发- 启动动画(动态欢迎界面,非静态Default) - 简书.pdf in Resources */,
+				0D50E96A1F25F29200F51364 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D50E9731F25F29200F51364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D50E97E1F25F29200F51364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D50E9581F25F29200F51364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D50E9671F25F29200F51364 /* ViewController.m in Sources */,
+				0D50E9641F25F29200F51364 /* AppDelegate.m in Sources */,
+				0D50E9611F25F29200F51364 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D50E9711F25F29200F51364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D50E97A1F25F29200F51364 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D50E97C1F25F29200F51364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D50E9851F25F29200F51364 /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D50E9771F25F29200F51364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D50E95B1F25F29200F51364 /* 打印机 */;
+			targetProxy = 0D50E9761F25F29200F51364 /* PBXContainerItemProxy */;
+		};
+		0D50E9821F25F29200F51364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D50E95B1F25F29200F51364 /* 打印机 */;
+			targetProxy = 0D50E9811F25F29200F51364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D50E9681F25F29200F51364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D50E9691F25F29200F51364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D50E96D1F25F29200F51364 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D50E96E1F25F29200F51364 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D50E9871F25F29200F51364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D50E9881F25F29200F51364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D50E98A1F25F29200F51364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "打印机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zkml.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D50E98B1F25F29200F51364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "打印机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zkml.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D50E98D1F25F29200F51364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "打印机Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zkml.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/打印机.app/打印机";
+			};
+			name = Debug;
+		};
+		0D50E98E1F25F29200F51364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "打印机Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zkml.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/打印机.app/打印机";
+			};
+			name = Release;
+		};
+		0D50E9901F25F29200F51364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "打印机UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zkml.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "打印机";
+			};
+			name = Debug;
+		};
+		0D50E9911F25F29200F51364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "打印机UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zkml.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "打印机";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D50E9571F25F29200F51364 /* Build configuration list for PBXProject "打印机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D50E9871F25F29200F51364 /* Debug */,
+				0D50E9881F25F29200F51364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D50E9891F25F29200F51364 /* Build configuration list for PBXNativeTarget "打印机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D50E98A1F25F29200F51364 /* Debug */,
+				0D50E98B1F25F29200F51364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D50E98C1F25F29200F51364 /* Build configuration list for PBXNativeTarget "打印机Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D50E98D1F25F29200F51364 /* Debug */,
+				0D50E98E1F25F29200F51364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D50E98F1F25F29200F51364 /* Build configuration list for PBXNativeTarget "打印机UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D50E9901F25F29200F51364 /* Debug */,
+				0D50E9911F25F29200F51364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D50E9541F25F29200F51364 /* Project object */;
+}
